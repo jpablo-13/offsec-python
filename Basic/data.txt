@@ -1,0 +1,7 @@
+Reading and writing to files is an important function for ingesting or saving data for after the script ends.
+To open a file, we can use the open command, set to a variable.
+We need to specify the file name and the mode.
+The mode can be read (r), write (w), append (a), or read+write (r+) for text.
+If we want to read or write binary data, we can append a b to the mode.
+Reading a binary file would require a read-binary (rb) mode, and writing binary to a file would require write-binary (wb).
+For our examples, we will work with text.I'm sample data to be written to a fileI'm sample data to be written to a fileI'm sample data to be written to a fileI'm sample data to be written to a file
